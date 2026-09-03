@@ -1,0 +1,17 @@
+{
+  "name": "backendwala",
+  "version": "1.0.0",
+  "description": " following   backend  series  and making  a cool stufs",
+  "keywords": [
+    "javaScript",
+    "backend",
+    "Soitit"
+  ],
+  "license": "ISC",
+  "author": "DEVESH DWIVEDI",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

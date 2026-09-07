@@ -14,6 +14,6 @@ export { ApiResponse }
 
 200 < 400 → true
 201 < 400 → true
-400 < 400 → false
+400 < 400 → false  //goooo
 404 < 400 → false
 500 < 400 → false */

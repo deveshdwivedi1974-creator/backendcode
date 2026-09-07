@@ -16,7 +16,7 @@ class ApiError extends Error {
         statusCode,    
         message= "Something went wrong",
         errors = [],
-        stack = ""
+        stack =""
     ){
         super(message)   //calls  parent class 
         this.statusCode = statusCode
@@ -28,7 +28,7 @@ class ApiError extends Error {
         if (stack) {
             this.stack = stack     //stack m koi error h to position dekho 
 
-        } else{      ///
+        } else{      //it will be okk
             Error.captureStackTrace(this, this.constructor)
             // ye  trace  karta  hai ki exactly  ki position pe error  aaa rahai  hai 
         }

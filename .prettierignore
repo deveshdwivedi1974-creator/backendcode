@@ -1,6 +1,6 @@
-* .env
-/.dist  
+*.env
+/.dist
 /.vscode
- /.node_module
- .env.*
+/.node_modules
+.env.*
  

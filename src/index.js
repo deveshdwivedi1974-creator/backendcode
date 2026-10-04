@@ -1,12 +1,13 @@
 //equire('dotenv').config({path:'./env'})  //it shows  inconssitency  thats  why  we  dont  prefer  this 
  import dns from "dns";
+ import {app} from "./app.js"
 dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 import dotenv from "dotenv"
 import connectDB from "./db/index.js"
    
    dotenv.config(
-    {path: './env'}
+    {path: './.env'}
    )
 
    
